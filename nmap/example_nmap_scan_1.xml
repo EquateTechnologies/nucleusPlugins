@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Mon Apr  6 09:36:39 2020 as: nmap -sT -p 22 -oX nmap_ping_only.xml 192.168.0.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sT -p 22 -oX nmap_ping_only.xml 192.168.0.0/24" start="1586129799" startstr="Mon Apr  6 09:36:39 2020" version="7.70" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="22"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1586129799" endtime="1586129803"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.0.1" addrtype="ipv4"/>
+<hostnames>
+<hostname name="host1.example.tld" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="1514" rttvar="5000" to="100000"/>
+</host>
+<host starttime="1586129799" endtime="1586129803"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.0.19" addrtype="ipv4"/>
+<hostnames>
+<hostname name="host2.example.tld" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="14268" rttvar="22983" to="106200"/>
+</host>
+<host starttime="1586129799" endtime="1586129803"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.0.32" addrtype="ipv4"/>
+<hostnames>
+<hostname name="host3.example.tld" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="391" rttvar="3803" to="100000"/>
+</host>
+<host starttime="1586129799" endtime="1586129803"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.0.94" addrtype="ipv4"/>
+<hostnames>
+<hostname name="host4.example.tld" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="1262" rttvar="3960" to="100000"/>
+</host>
+<host starttime="1586129799" endtime="1586129803"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.0.129" addrtype="ipv4"/>
+<hostnames>
+<hostname name="host5.example.tld" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="84416" rttvar="63511" to="338460"/>
+</host>
+<host starttime="1586129799" endtime="1586129803"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.0.168" addrtype="ipv4"/>
+<hostnames>
+<hostname name="host6.example.tld" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="5777" rttvar="5777" to="100000"/>
+</host>
+<host starttime="1586129799" endtime="1586129803"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.0.178" addrtype="ipv4"/>
+<hostnames>
+<hostname name="host7.example.tld" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="78411" rttvar="59345" to="315791"/>
+</host>
+<host starttime="1586129799" endtime="1586129803"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.0.214" addrtype="ipv4"/>
+<hostnames>
+<hostname name="host8.example.tld" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="5980" rttvar="5820" to="100000"/>
+</host>
+<host starttime="1586129799" endtime="1586129803"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.0.216" addrtype="ipv4"/>
+<hostnames>
+<hostname name="host9.example.tld" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="74998" rttvar="68623" to="349490"/>
+</host>
+<host starttime="1586129799" endtime="1586129803"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.0.222" addrtype="ipv4"/>
+<hostnames>
+<hostname name="host10.example.tld" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="5819" rttvar="5645" to="100000"/>
+</host>
+<runstats><finished time="1586129803" timestr="Mon Apr  6 09:36:43 2020" elapsed="4.09" summary="Nmap done at Mon Apr  6 09:36:43 2020; 256 IP addresses (10 hosts up) scanned in 4.09 seconds" exit="success"/><hosts up="10" down="246" total="256"/>
+</runstats>
+</nmaprun>
